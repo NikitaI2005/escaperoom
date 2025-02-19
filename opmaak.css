@@ -11,13 +11,13 @@ body {
     color: white;
 }
 
-/* Container voor de tekst */
-.container {
+/* tekst */
+.tekst {
     max-width: 600px;
     padding: 20px;
 }
 
-/* De grote knop */
+/* De knop */
 .start-button {
     display: inline-block;
     margin-top: 20px;
