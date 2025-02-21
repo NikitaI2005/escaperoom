@@ -40,7 +40,10 @@ body {
     transform: scale(1.1);
 }
 
-
+.achtergrond_verhaallijn{
+    background: url('hyperspace_sasws_1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
 
 
 
