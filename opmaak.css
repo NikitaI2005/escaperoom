@@ -24,7 +24,7 @@ body {
     padding: 15px 30px;
     font-size: 20px;
     color: white;
-    background: linear-gradient(45deg, #ff6600, #ff0000);
+    background: linear-gradient(45deg, teal, navy);
     border: none;
     border-radius: 8px;
     text-decoration: none;
@@ -35,7 +35,7 @@ body {
 
 /* Hover effect */
 .start-button:hover {
-    background: linear-gradient(45deg, #ff0000, #ff6600);
+    background: linear-gradient(45deg, navy, teal);
     box-shadow: 0 0 25px rgba(255, 100, 0, 1);
     transform: scale(1.1);
 }
