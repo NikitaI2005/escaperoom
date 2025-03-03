@@ -62,10 +62,27 @@ body {
     text-align: center;
 }
 
+
+
+/*Knoppen*/
 .knop1 {
     position: absolute; 
     top: 350px; 
     left: 350px;  
+    width: 125px; 
+    height: 100px; 
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.knop2 {
+    position: absolute; 
+    top: 350px; 
+    left: 700px;  
     width: 125px; 
     height: 100px; 
     background-color: #007bff;
