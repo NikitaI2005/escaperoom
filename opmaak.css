@@ -64,10 +64,10 @@ body {
 
 .knop1 {
     position: absolute; /* Zorgt ervoor dat je de knop precies kunt plaatsen */
-    top: 400px;  /* 100px vanaf de bovenkant van de pagina */
-    left: 300px;  /* 50px vanaf de linkerkant */
+    top: 300px;  /* 100px vanaf de bovenkant van de pagina */
+    left: 400px;  /* 50px vanaf de linkerkant */
     width: 150px; /* Breedte van de knop */
-    height: 10px; /* Hoogte van de knop */
+    height: 100px; /* Hoogte van de knop */
     background-color: #007bff; /* Blauwe knop */
     color: white;
     border: none;
