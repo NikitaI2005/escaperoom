@@ -62,15 +62,20 @@ body {
     text-align: center;
 }
 
-.knop {
+.knop1 {
+    position: absolute; /* Zorgt ervoor dat je de knop precies kunt plaatsen */
+    top: 100px;  /* 100px vanaf de bovenkant van de pagina */
+    left: 50px;  /* 50px vanaf de linkerkant */
+    width: 150px; /* Breedte van de knop */
+    height: 50px; /* Hoogte van de knop */
     background-color: #007bff; /* Blauwe knop */
     color: white;
-    padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
 }
+
 
 
 
