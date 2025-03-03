@@ -64,9 +64,9 @@ body {
 
 .knop1 {
     position: absolute; 
-    top: 250px; 
+    top: 350px; 
     left: 350px;  
-    width: 150px; 
+    width: 125px; 
     height: 100px; 
     background-color: #007bff;
     color: white;
