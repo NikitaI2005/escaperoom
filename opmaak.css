@@ -1,3 +1,4 @@
+/*achtergrond*/
 body {
     margin: 0;
     padding: 0;
@@ -11,13 +12,11 @@ body {
     color: white;
 }
 
-/* tekst */
 .tekst {
     max-width: 600px;
     padding: 20px;
 }
 
-/* De knop */
 .start-button {
     display: inline-block;
     margin-top: 20px;
@@ -93,6 +92,42 @@ body {
     font-size: 16px;
 }
 
+
+
+
+/*Naar volgende kamer*/
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+button:disabled {
+    background-color: #ccc;
+}
+.hidden {
+    display: none;
+}
 
 
 

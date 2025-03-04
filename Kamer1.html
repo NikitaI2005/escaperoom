@@ -15,6 +15,33 @@
         </button>
         <button class="knop2" onclick="window.location.href='puzzel2.html'">
         </button>
+
+        <div class="container">
+            <h2>Raad de code om naar de andere kamer te gaan!</h2>
+            <input type="text" id="codeInput" placeholder="Voer de code in">
+            <button id="submitBtn" onclick="checkCode()">Verzenden</button>
+            
+            <div id="nextRoomBtn" class="hidden">
+                <a href="https://example.com/andere-kamer" target="_blank">
+                    <button>Ga naar de andere kamer</button>
+                </a>
+            </div>
+        </div>
+        <script>
+            const correctCode = "1234"; 
+            const submitBtn = document.getElementById("submitBtn");
+            const codeInput = document.getElementById("codeInput");
+            const nextRoomBtn = document.getElementById("nextRoomBtn");
+        
+            function checkCode() {
+                if (codeInput.value === correctCode) {
+                    nextRoomBtn.classList.remove("hidden");  // Toon de knop
+                } else {
+                    alert("Foute code, probeer het opnieuw!");
+                }
+            }
+        </script>
+        
     </body>
 </html>
 
