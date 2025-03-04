@@ -121,8 +121,8 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 4px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: white;
+    color: navy;
 }
 
 button:disabled {
