@@ -98,11 +98,11 @@ body {
 /*Naar volgende kamer*/
 .container {
     position: absolute;
-    bottom: 20px; /* Kleine marge vanaf de onderkant */
-    right: 20px; /* Kleine marge vanaf de rechterkant */
+    bottom: 20px; 
+    right: 20px; 
     text-align: center;
     padding: 20px;
-    background-color: #FFF;
+    background-color: navy;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
