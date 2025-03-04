@@ -97,14 +97,14 @@ body {
 
 /*Naar volgende kamer*/
 .container {
+    position: absolute;
+    bottom: 20px; /* Kleine marge vanaf de onderkant */
+    right: 20px; /* Kleine marge vanaf de rechterkant */
     text-align: center;
     padding: 20px;
     background-color: #FFF;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    position: absolute;
-    bottom: 700px;
-    right: 700px;
 }
 
 input {
