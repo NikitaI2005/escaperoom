@@ -12,6 +12,17 @@ body {
     color: white;
 }
 
+h1 {
+    color: #ffcc00;
+    text-align: center; 
+    margin: 20px 0 10px 0; 
+    position: absolute;
+    top: 10px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 100%;
+}
+
 .tekst {
     max-width: 600px;
     padding: 20px;
