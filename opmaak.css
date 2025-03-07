@@ -94,10 +94,10 @@ body {
 
 .knop3 {
     position: absolute; 
-    top: 20px; 
+    top: 700px; 
     left: 100px;  
-    width: 100px; 
-    height: 100px; 
+    width: 140px; 
+    height: 50px; 
     background-color: #007bff;
     color: white;
     border: none;
