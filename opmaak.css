@@ -108,8 +108,8 @@ body {
 
 .knop5 {
     position: absolute; 
-    top: 500px; 
-    left: 500px;  
+    top: 550px; 
+    left: 400px;  
     width: 40px; 
     height: 40px; 
     background-color: #007bff;
@@ -122,9 +122,9 @@ body {
 
 .knop6 {
     position: absolute; 
-    top: 530px; 
-    left: 140px;  
-    width: 160px; 
+    top: 550px; 
+    left: 700px;  
+    width: 40px; 
     height: 40px; 
     background-color: #007bff;
     color: white;
