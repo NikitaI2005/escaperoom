@@ -14,10 +14,6 @@
             margin-top: 50px;
         }
 
-        h1 {
-            color: #007bff;
-        }
-
         .grid {
             display: grid;
             grid-template-columns: repeat(4, 80px);
@@ -52,7 +48,7 @@
             margin-top: 20px;
             font-size: 20px;
             font-weight: bold;
-            color: #ffcc00;
+            color: white;
         }
 
         .hidden {
@@ -73,11 +69,10 @@
 
 
     <div class="grid" id="maze">
-        <!-- Het doolhof wordt hier gegenereerd met JavaScript -->
     </div>
 
-    <p id="message" class="message hidden">Fout pad! Probeer opnieuw.</p>
-    <p id="win-message" class="message hidden win-message">✅ Goed gedaan! De deur is ontgrendeld.</p>
+    <p id="message" class="message hidden">Probeer opnieuw.</p>
+    <p id="win-message" class="message hidden win-message">Code</p>
 
     <button onclick="resetMaze()" class="hidden" id="reset-button">🔄 Opnieuw proberen</button>
 
