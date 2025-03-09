@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html>
 <head>
     <meta charset="UTF-8"> <!-- Maak rare tekens zichtbaar-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Werkt ook op telefoon-->
@@ -18,7 +18,7 @@
         .row {
             display: flex;
             gap: 10px;
-            justify-content: flex-start; /* Zorgt ervoor dat de blokjes binnen de rij links blijven */
+            align-items: center; /* Zorgt ervoor dat de blokjes en de tekst op dezelfde lijn staan */
         }
         .block {
             width: 100px;
@@ -32,6 +32,10 @@
             font-family: Arial, sans-serif;
             background-color: lightgray;
         }
+        .row-text {
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+        }
     </style>
 </head>
 <body>
@@ -40,27 +44,33 @@
             <div class="block">Blok 1</div>
             <div class="block">Blok 2</div>
             <div class="block">Blok 3</div>
+            <span class="row-text">Tekst bij rij 1</span>
         </div>
         <div class="row">
             <div class="block">Blok 4</div>
             <div class="block">Blok 5</div>
             <div class="block">Blok 6</div>
+            <span class="row-text">Tekst bij rij 2</span>
         </div>
         <div class="row">
             <div class="block">Blok 7</div>
             <div class="block">Blok 8</div>
             <div class="block">Blok 9</div>
+            <span class="row-text">Tekst bij rij 3</span>
         </div>
         <div class="row">
             <div class="block">Blok 10</div>
             <div class="block">Blok 11</div>
             <div class="block">Blok 12</div>
+            <span class="row-text">Tekst bij rij 4</span>
         </div>
         <div class="row">
             <div class="block">Blok 13</div>
             <div class="block">Blok 14</div>
             <div class="block">Blok 15</div>
+            <span class="row-text">Tekst bij rij 5</span>
         </div>
     </div>
 </body>
 </html>
+
