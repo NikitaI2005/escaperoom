@@ -5,14 +5,59 @@
         <title>Engineeringcentrum</title> <!--Kamer 3-->
         <link rel="stylesheet" href="opmaak.css">
         <script>
-            window.onload = function () {alert("Welkom in het engineering centrum. Dit is waar de motoren van het schip zitten. Er is schade en het schip heeft niet genoeg kracht om te ontsnappen aan de gravitatiekracht van het zwarte gat. ");};
+            window.onload = function () {alert("Welkom in het engineering centrum. Dit is waar de motoren van het schip zitten. Er is schade en het schip heeft niet genoeg kracht om te ontsnappen aan de gravitatiekracht van het zwarte gat. Ben jij in staat de motoren te repareren en het schip te redden van de ondergang?");};
         </script>
+
+<style>
+    .tekstvak {
+        position: fixed;
+        top: 20px;  /* Afstand vanaf de bovenkant */
+        left: 20px;    /* Afstand vanaf de linkerzijde */
+        background-color: rgba(121, 204, 237, 0.8); /* Achtergrondkleur met transparantie */
+        color: #333;   /* Tekstkleur */
+        padding: 15px; /* Ruimte rondom de tekst */
+        border-radius: 8px; /* Afronde hoeken */
+        font-size: 16px; /* Lettergrootte */
+        font-family: Arial, sans-serif; /* Lettertype */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Schaduw voor diepte */
+    }
+</style>
     </head>
 
     <body>
+        <div class="container">
+            <h2>Reparatie</h2>
+            <input type="text" id="codeInput" placeholder="Voer de code in">
+            <button id="submitBtn" onclick="checkCode()">Verzenden</button>
+            
+            <div id="nextRoomBtn" class="hidden">
+                <a href="Kamer3.html" target="_blank">
+                    <button>Naar volgende kamer</button>
+                </a>
+            </div>
+        </div>
+        <script>
+            const correctCode = "Start reparatie"; 
+            const submitBtn = document.getElementById("submitBtn");
+            const codeInput = document.getElementById("codeInput");
+            const nextRoomBtn = document.getElementById("nextRoomBtn");
+        
+            function checkCode() {
+                if (codeInput.value === correctCode) {
+                    nextRoomBtn.classList.remove("hidden");  // Toon de knop
+                } else {
+                    alert("Foute code, probeer het opnieuw!");
+                }
+            }
+        </script>
+
         <img src="engineeringcentrum .png" alt="engineeringcentrum" class="background">
 
         <button class="knop5" onclick="window.location.href='puzzel5.html'"></button>
         <button class="knop6" onclick="window.location.href='puzzel6.html'"></button>
+        <div class="tekstvak">
+            Deze kamer gaat over symetrische enscryptie.<br>
+            Symetrische enscryptie is een vorm van versleuteling.<br> Het vereist dat de verzender vooraf een sleutel met de ontvanger uitwisselt.<br> Die sleutel zet alle data om van leesbare in onleesbare tekst.<br> En alleen met diezelfde sleutel kan je dit weer terug draaien.<br> Bijvoorbeeld bij het doolhof spel.<br> Als je het doolhof zelf ziet snap je er niks van,<br> maar met de sleutel A,E,S kan je het doolhof ontrafelen. 
+        </div>
     </body>
 </html>

@@ -7,14 +7,39 @@
     <link rel="stylesheet" href="opmaak.css">
 </head>
 <body>
-    <button class="knop7" onclick="window.location.href='kamer3.html'">
+    <button class="knop11" onclick="window.location.href='kamer3.html'">
         Terug
     </button>
-    <button class="knop9" onclick="window.location.href='HintPuzzel6.html'">
-        Hint
-        </button>
 
     <h1>Kraak de code</h1>
     <img src="Geheimcode.png" alt="Puzzel6" width="500" height="500">
+
+    <div class="container">
+        <h2>Antwoord</h2>
+        <input type="text" id="codeInput" placeholder="Voer de code in">
+        <button id="submitBtn" onclick="checkCode()">Verzenden</button>
+    
+        <p id="message" class="hidden">Reparatie</p>
+    </div>
+    
+    <script>
+        const correctCode = "De lettercode die je zoekt is kw"; 
+        const codeInput = document.getElementById("codeInput");
+        const message = document.getElementById("message");
+    
+        function checkCode() {
+            if (codeInput.value === correctCode) {
+                message.classList.remove("hidden");  // Toon de tekst
+            } else {
+                alert("Foute code, probeer het opnieuw!");
+            }
+        }
+    </script>
+    
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
 </body>
 </html>
